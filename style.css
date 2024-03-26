@@ -744,7 +744,7 @@ input[type]:checked~span.mid {
 
 .skills-1 {
     max-width: 100%;
-    min-height: 600px;
+    min-height: 25rem;
     margin: 5px 20px 20px 220px;
     padding: 50px 20px 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -1462,7 +1462,7 @@ input[type]:checked~span.mid {
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
 
-.tools li svg {
+.tools li svg{
     /* max-width: 50px;
     max-height: 50px; */
     width: clamp(30px, 10px + 5vw, 50px);
