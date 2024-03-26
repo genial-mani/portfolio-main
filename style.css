@@ -626,7 +626,6 @@ input[type]:checked~span.mid {
     /* background-color: burlywood; */
     font: clamp(14px, 1px + 5vw, 16px) Poppins-light;
     position: relative;
-
 }
 
 .p {
