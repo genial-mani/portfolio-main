@@ -846,12 +846,12 @@ input[type]:checked~span.mid {
 .names {
     min-width: 100px;
     border: 1px solid white;
-    padding: 10px 15px;
+    padding: clamp(5px,3vw + 1px,10px) clamp(10px,3vw + 1px,15px);
     display: flex;
     flex-shrink: 0;
     align-items: center;
     /* justify-content: space-around; */
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .names div {
@@ -862,7 +862,7 @@ input[type]:checked~span.mid {
 }
 
 .names p {
-    font-size: 18px;
+    font-size: clamp(10px,3vw + 2px,18px);
 }
 
 /* .names {
@@ -1362,8 +1362,8 @@ input[type]:checked~span.mid {
     min-height: 255px;
     /* background-color: antiquewhite; */
     /* border: 1.7px solid #fff; */
-    border-radius: 15px;
-    background: linear-gradient(45deg, #000000, transparent 90%, #ffffff);
+    border-radius: 5px;
+    background: #000000;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1420,7 +1420,7 @@ input[type]:checked~span.mid {
     border: 1.5px solid rgb(255, 255, 255);
     color: white;
     padding: 5px 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
