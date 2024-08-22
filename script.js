@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
   lazyLoad('project-3', 'projects-animation');
   lazyLoad('project-4', 'projects-animation');
   lazyLoad('project-5', 'projects-animation');
+  lazyLoad('project-6', 'projects-animation');
   lazyLoad('clg-name1','text-ani');
   lazyLoad('clg-name2','text-ani');
 

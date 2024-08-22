@@ -778,7 +778,9 @@ input[type]:checked~span.mid {
 
 .square-container {
     display: flex;
-    animation: moveRightToLeft 15s linear infinite;
+    flex-direction: row;
+    gap: 10px;
+    /* animation: moveRightToLeft 15s linear infinite; */
 }
 
 .square {
@@ -793,16 +795,6 @@ input[type]:checked~span.mid {
 .git-square {
     background-color: #fff;
     border-radius: 50%;
-}
-
-@keyframes moveRightToLeft {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
 }
 
 
