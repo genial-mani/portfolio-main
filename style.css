@@ -201,7 +201,7 @@ input[type]:checked~span.mid {
     align-items: center;
     background: #a3a9bf70;
     padding: 0 3px;
-    border-radius: 5px;
+    border-radius: 24px;
 }
 
 .and {
@@ -304,6 +304,7 @@ input[type]:checked~span.mid {
     font-family: Poppins-Regular;
     animation: text-ani 1s ease-in-out forwards;
     animation-delay: 0s;
+    color: blueviolet;
 }
 
 .content div h2 {
@@ -476,13 +477,15 @@ input[type]:checked~span.mid {
 }
 
 .container-2 div h2 {
-    width: 100%;
+    width: fit-content;
+    margin-inline: auto;
     min-height: 40px;
     text-align: center;
     font-size: clamp(20px, 1px + 3vw, 25px);
     font-family: Poppins-Regular;
-    border: 2px solid #fff;
-    padding: 10px;
+    border: 2px solid blueviolet;
+    padding: 10px 30px;
+    border-radius: 50px;
 }
 
 .container-2 h4 {
@@ -686,9 +689,9 @@ input[type]:checked~span.mid {
     justify-content: center;
     align-items: center;
     /* background-color: blue; */
-    border: 1.7px solid #fff;
+    border: 1.7px solid blueviolet;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 24px;
     font: clamp(14px, 1px + 3vw, 18px) Poppins-Regular;
 }
 
@@ -823,6 +826,9 @@ input[type]:checked~span.mid {
 .frontend h4,
 .backend h4 {
     margin-bottom: 30px;
+    border: 2px solid blueviolet;
+    padding: 10px 30px;
+    border-radius: 50px;
 }
 
 .skills-1 section {
@@ -837,13 +843,13 @@ input[type]:checked~span.mid {
 
 .names {
     min-width: 100px;
-    border: 1px solid white;
+    border: 2px solid blueviolet;
     padding: clamp(5px,3vw + 1px,10px) clamp(10px,3vw + 1px,15px);
     display: flex;
     flex-shrink: 0;
     align-items: center;
     /* justify-content: space-around; */
-    border-radius: 5px;
+    border-radius: 24px;
 }
 
 .names div {
@@ -992,11 +998,14 @@ input[type]:checked~span.mid {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 2px solid #fff;
 }
 
 .heading h3 {
+    width: fit-content;
     font: clamp(18px, 1px + 5vw, 20px) Poppins-Regular;
+    border: 2px solid blueviolet;
+    padding: 10px 30px;
+    border-radius: 24px;
 
 }
 
@@ -1113,12 +1122,15 @@ input[type]:checked~span.mid {
 
 .contact-heading {
     min-height: 60px;
-    width: 100%;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 10px 30px;
     /* background-color: burlywood; */
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #fff;
+    border: 2px solid blueviolet;
+    border-radius: 50px;
 
 }
 
@@ -1176,8 +1188,8 @@ input[type]:checked~span.mid {
     font: clamp(14px, 1px + 3vw, 18px) poppins-light;
     color: white;
     text-decoration: none;
-    border: 1.7px solid white;
-    border-radius: 5px;
+    border: 1.7px solid blueviolet;
+    border-radius: 24px;
     padding: 5px;
 }
 
@@ -1209,14 +1221,16 @@ input[type]:checked~span.mid {
 
 .contact-2-head,
 .contact-3-head {
-    width: 100%;
+    width: fit-content;
     height: 80px;
     margin: 0 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 2px solid #fff;
+    
+    padding: 10px 30px;
+    border-radius: 50px;
 
     /* background-color: antiquewhite; */
 }
@@ -1225,6 +1239,10 @@ input[type]:checked~span.mid {
 .contact-3-head h1,
 .projects-head h1 {
     font: clamp(30px, 5px + 3vw, 40px) Poppins-Regular;
+    border: 2px solid blueviolet;
+    padding: 10px 30px;
+    border-radius: 50px;
+
 }
 
 .contact-2-para,
@@ -1253,8 +1271,8 @@ input[type]:checked~span.mid {
     font: clamp(14px, 1px + 3vw, 18px) poppins-light;
     color: white;
     text-decoration: none;
-    border: 1.7px solid white;
-    border-radius: 5px;
+    border: 1.7px solid blueviolet;
+    border-radius: 24px;
     padding: 5px;
 }
 
@@ -1330,7 +1348,6 @@ input[type]:checked~span.mid {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fff;
 
 }
 
